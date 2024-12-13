@@ -8,9 +8,7 @@ export default function About() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Sobre a ArlLima</h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Há mais de uma década, a ArliLima se destaca no mercado de
-            transporte de produtos químicos, oferecendo soluções logísticas
-            seguras e eficientes em todo o território nacional.
+          A ArlLima é uma transportadora rodoviária localizada em Ribeirão Pires, especializada no transporte de produtos químicos em todo o Brasil.
           </p>
         </div>
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Truck, Phone, Mail, MapPin } from 'lucide-react';
-import Logo from '../img/logo.png';
+import logo from '../img/logo.png';
+
 
 export default function Navbar({ onQuoteClick }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,7 +27,8 @@ export default function Navbar({ onQuoteClick }) {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-2">
-            <img src={Logo} alt="Logo" className="w-12 h-12" />
+          <img src={logo} alt="Logo" />
+
            <a href='footer'> <span className="text-2xl font-bold text-gray-800">ArlLima</span></a>
           </div>
 
