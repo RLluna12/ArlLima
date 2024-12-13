@@ -59,6 +59,15 @@ export default function QuoteRequest() {
                 >
                   Conectar no LinkedIn
                 </a>
+                <a
+                  href="https://www.instagram.com/arllima.transportes/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center bg-red-800 text-white py-3 rounded-md hover:bg-red-900 transition"
+                >
+                  Visite nosso Instagram
+                </a>
+
               </div>
             </div>
           </div>
