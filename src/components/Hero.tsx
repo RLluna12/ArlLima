@@ -1,13 +1,13 @@
 import React from 'react';
 import { Shield, Award, Clock } from 'lucide-react';
-import Logo from '../img/caminhao.png';
+import caminhao from '../img/caminhao.png';
 
 export default function Hero({ onQuoteClick }) {
   return (
     <div className="relative bg-gray-900 text-white">
       <div className="absolute inset-0">
         <img
-          src={Logo}
+          src={caminhao}
           alt="Chemical transport"
           className="w-full h-full object-cover opacity-30"
         />
